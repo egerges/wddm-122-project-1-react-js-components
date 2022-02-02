@@ -1,0 +1,17 @@
+:root {
+    /* Global Colors */
+
+    --secondary-bg-color: #f1f1f1;
+    --third-bg-color: #63666b;
+    --title-text-color: #77b6db;
+    --title-text-color-hover: #437897;
+    --title-text-color-light: #696969;
+    --dark-bg-text-color: #ffffff;
+    --seperator-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

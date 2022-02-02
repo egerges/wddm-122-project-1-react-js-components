@@ -1,0 +1,22 @@
+.header-bar {
+    background-color: var(--secondary-bg-color);
+    padding: 1em 2em;
+}
+
+.navbar-light .navbar-brand,
+.header-logo {
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-light .navbar-brand:focus, 
+.navbar-light .navbar-brand:hover,
+.header-logo:focus,
+.header-logo:hover {
+    color: var(--title-text-color-hover);
+}
+
+.header-nav-items {
+    color: var(--title-text-color-light);
+}
