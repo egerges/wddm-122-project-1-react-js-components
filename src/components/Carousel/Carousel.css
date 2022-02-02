@@ -1,0 +1,10 @@
+/* .carousel-holder {
+    width: 100vw;
+    height: 25vh;
+} */
+
+.carousel-holder img {
+    width: 1920px;
+    height: 400px;
+    /* object-fit: cover; */
+}
