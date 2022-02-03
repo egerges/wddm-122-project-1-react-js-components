@@ -2,6 +2,7 @@
     /* Global Colors */
 
     --secondary-bg-color: #f1f1f1;
+    --secondary-bg-color-dropped-opacity:rgba(241, 241, 241, 0.719);
     --third-bg-color: #63666b;
     --title-text-color: #77b6db;
     --title-text-color-hover: #437897;
