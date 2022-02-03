@@ -17,14 +17,13 @@ import Carousel from './components/Carousel/Carousel';
 // Quote component and plugins
 import Quote from './components/Quote/Quote';
 
+
 ReactDOM.render(
   <React.StrictMode>
       <Header/>
       <Carousel/>
-      {/* <p>lorem ipsum</p> */}
       <Quote />
-      {/* <Carousel/>
-      <Carousel/> */}
+      {/* Next Component */}
       <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
