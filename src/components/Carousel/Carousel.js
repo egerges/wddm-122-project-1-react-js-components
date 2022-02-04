@@ -12,7 +12,7 @@ class Carousel extends React.Component {
 
         //Setting class variables
         this.state = { 
-            interval: 2500,
+            interval: 5000,
             className: 'd-block w-100',
             touch: true,
             fade: true
@@ -24,24 +24,51 @@ class Carousel extends React.Component {
             <section className='carousel-holder'>
                 <BCarousel fade={this.state.fade} touch={this.state.touch}>
                     <BCarousel.Item interval={this.state.interval} >
-                        <img className={this.state.className} src='/img/carousel-banner/800x400.png' alt='first name'/>
+                        <img className={this.state.className} src='/img/carousel-banner/uchange.jpg' alt='PMI'/>
                         <BCarousel.Caption>
-                            <h5>First slide label</h5>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h5>
+                                <a href="https://www.linkedin.com/posts/elio-gerges-4478ba126_uchange-for-a-stronger-usj-activity-6814837628949590016-UUrm"
+                                    target="_blank">
+                                        CEO of UChange University Chapter Saint Joseph University of Beirut
+                                </a>
+                            </h5>
+                            <p>My testimony as a student at Saint Joseph University of Beirut who helped initiate a student lead project to bring together students and alumni in networking events.</p>
                         </BCarousel.Caption>
                     </BCarousel.Item>
                     <BCarousel.Item interval={this.state.interval} >
-                        <img className={this.state.className} src='/img/carousel-banner/800x400.png' alt='first name'/>
+                        <img className={this.state.className} src='/img/carousel-banner/uif.jpg' alt='UIF'/>
                         <BCarousel.Caption>
-                            <h5>Second slide label</h5>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h5>
+                                <a href="https://universityinnovation.org/wiki/Category:Saint_Joseph_University_of_Beirut_(2019_Fall_cohort)"
+                                    target="_blank">
+                                        University Innovation Fellows
+                                </a>
+                            </h5>
+                            <p>Change doesn't happen overnight! Change needs patience, collaboration and people to believe in it.</p>
                         </BCarousel.Caption>
                     </BCarousel.Item>
                     <BCarousel.Item interval={this.state.interval} >
-                        <img className={this.state.className} src='/img/carousel-banner/800x400.png' alt='first name'/>
+                        <img className={this.state.className} src='/img/carousel-banner/pmi.jpg' alt='PMI'/>
                         <BCarousel.Caption>
-                            <h5>Third slide label</h5>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h5>
+                                <a href="https://www.linkedin.com/posts/elio-gerges-4478ba126_projectmanagement-pmi-competition-activity-6671832457689485312-LZu7"
+                                    target="_blank">
+                                        Project Management Institute MENA
+                                </a>
+                            </h5>
+                            <p>Winner of the PMI Pioneering Youth Competition.</p>
+                        </BCarousel.Caption>
+                    </BCarousel.Item>
+                    <BCarousel.Item interval={this.state.interval} >
+                        <img className={this.state.className} src='/img/carousel-banner/mentor.jpg' alt='Mentor'/>
+                        <BCarousel.Caption>
+                            <h5>
+                                <a href="https://www.linkedin.com/posts/elio-gerges-4478ba126_collaborativelearning-futureoflearning-changemakers-activity-6665739761933664256-b4po"
+                                    target="_blank">
+                                        Design Thinking Ambassador
+                                </a>
+                            </h5>
+                            <p>Ambassador of Innovation, Change and Desgn Thinking.</p>
                         </BCarousel.Caption>
                     </BCarousel.Item>
                 </BCarousel>

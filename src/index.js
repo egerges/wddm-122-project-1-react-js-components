@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './colors.css';
 import './index.css';
+import './fonts.css';
 
 // Header Component
 import Header from './components/Header/Header';
@@ -23,7 +24,6 @@ ReactDOM.render(
       <Header/>
       <Carousel/>
       <Quote />
-      {/* Next Component */}
       <Footer/>
   </React.StrictMode>,
   document.getElementById('root')

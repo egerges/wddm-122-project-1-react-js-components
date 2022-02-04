@@ -25,7 +25,7 @@ const Quote = () => {
             // markers: true
         });
 
-        gsap.fromTo(q(".parallax-profile"), {
+        gsap.fromTo(q(".quote-profile"), {
             y: -200, 
             autoAlpha: 0
         }, {
@@ -34,7 +34,7 @@ const Quote = () => {
             duration: duration,
             scrollTrigger: scrollTrigger
         });
-        gsap.fromTo(q(".parallax-text"), {
+        gsap.fromTo(q(".quote-text"), {
             y: 200, 
             autoAlpha: 0
         }, {
@@ -46,12 +46,11 @@ const Quote = () => {
     });
 
     return (
-        <div className="parallax-holder" ref={containerRef}>
-            <img src='/logo512.png' alt='parallax profile' className='parallax-profile'/>
-            <h1 className="parallax-text">
+        <div className="quote-holder" ref={containerRef}>
+            <img src='/logo512.png' alt='parallax profile' className='quote-profile'/>
+            <h3 className="quote-text">
                 "There are two types of people who will tell you that you cannot make a difference in this world: those who are afraid to try and those who are afraid you will succeed."
-                Should be replaced by legit text.
-            </h1>
+            </h3>
         </div>
     );
 };

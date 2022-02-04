@@ -1,10 +1,28 @@
-/* .carousel-holder {
-    width: 100vw;
-    height: 25vh;
-} */
+.carousel-holder {
+    background-color: var(--darken-bg-color);
+}
+
+.carousel-holder a {
+    text-decoration: none;
+    color: var(--caption-title-color);
+}
+
+.carousel-caption h5 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.carousel-holder a:hover {
+    color: var(--title-text-color-hover);
+}
 
 .carousel-holder img {
     width: 1920px;
-    height: 400px;
-    /* object-fit: cover; */
+    height: 500px;
+    object-fit: cover;
+    opacity: .4;
 }
+
+/* .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.712);
+} */

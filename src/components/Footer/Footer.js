@@ -6,7 +6,7 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 function footer() {
     return(
-        <div className='footer-bar'>
+        <div className='footer-bar' id='contact'>
             <div className='footer-body'>
                 <div>
                     <div className='header-logo'>Elio Gerges</div>

@@ -9,6 +9,8 @@
     --title-text-color-light: #696969;
     --dark-bg-text-color: #ffffff;
     --seperator-color: #ffffff;
+    --darken-bg-color: #000000;
+    --caption-title-color: #a5cbe0;
 }
 
 * {
