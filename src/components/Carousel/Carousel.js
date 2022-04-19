@@ -28,7 +28,8 @@ class Carousel extends React.Component {
                         <BCarousel.Caption>
                             <h5>
                                 <a href="https://www.linkedin.com/posts/elio-gerges-4478ba126_uchange-for-a-stronger-usj-activity-6814837628949590016-UUrm"
-                                    target="_blank">
+                                    target="_blank"
+                                    rel="noreferrer">
                                         CEO of UChange University Chapter Saint Joseph University of Beirut
                                 </a>
                             </h5>
@@ -40,7 +41,8 @@ class Carousel extends React.Component {
                         <BCarousel.Caption>
                             <h5>
                                 <a href="https://universityinnovation.org/wiki/Category:Saint_Joseph_University_of_Beirut_(2019_Fall_cohort)"
-                                    target="_blank">
+                                    target="_blank"
+                                    rel="noreferrer">
                                         University Innovation Fellows
                                 </a>
                             </h5>
@@ -52,7 +54,8 @@ class Carousel extends React.Component {
                         <BCarousel.Caption>
                             <h5>
                                 <a href="https://www.linkedin.com/posts/elio-gerges-4478ba126_projectmanagement-pmi-competition-activity-6671832457689485312-LZu7"
-                                    target="_blank">
+                                    target="_blank"
+                                    rel="noreferrer">
                                         Project Management Institute MENA
                                 </a>
                             </h5>
@@ -64,7 +67,8 @@ class Carousel extends React.Component {
                         <BCarousel.Caption>
                             <h5>
                                 <a href="https://www.linkedin.com/posts/elio-gerges-4478ba126_collaborativelearning-futureoflearning-changemakers-activity-6665739761933664256-b4po"
-                                    target="_blank">
+                                    target="_blank"
+                                    rel="noreferrer">
                                         Design Thinking Ambassador
                                 </a>
                             </h5>
