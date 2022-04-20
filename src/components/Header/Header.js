@@ -30,7 +30,7 @@ function Header() {
                     <Nav className="me-auto my-2 my-lg-0 header-nav-items">
                         <Nav.Link href="/">Home</Nav.Link>
                         <Link to={'/portfolio'} target={'_self'}>
-                            <Nav.Link>Portfolio</Nav.Link>
+                            Portfolio
                         </Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
                     </Nav>
