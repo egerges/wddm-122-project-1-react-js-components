@@ -1,7 +1,8 @@
 import './Accordion.css';
 import React from 'react';
 import BAccordion from 'react-bootstrap/Accordion';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 
 class Accordion extends React.Component {
     //Class constructor
@@ -34,12 +35,28 @@ class Accordion extends React.Component {
                             and established industry standards including designing websites that are mobile-ready, accessible and future-proof.
                             Follow the link below to be redirected to my github or portfolio and see some of my projects throughout the course.
                             <br/><br/>
-                            <Button variant="primary" size="lg" active onClick={() => {window.open("https://github.com/egerges", "_blank")}}>
+            {/*<Button variant="primary" size="lg" active onClick={() => {window.open("https://github.com/egerges", "_blank")}}>
                                 Github
                             </Button> <br/>
                             <Button variant="primary" size="lg" active onClick={() => {window.open("./porfolio", "_self")}}>
                                 Portfolio
-                            </Button>
+                            </Button>*/}
+    {/* <Link to={'https://github.com/egerges'} target={'_blank'}>
+                                <Button variant="primary" size="lg" active> {/** onClick={() => {window.open("https://github.com/egerges", "_blank")}} *
+                                    Github
+                                </Button>
+                            </Link> */}
+                            <Link to={''}>
+                                <Button variant="primary" size="lg" active onClick={() => {window.open("https://github.com/egerges", "_blank")}}> {/**  */}
+                                    Github
+                                </Button>
+                            </Link>
+                            <br/>
+                            <Link to={'/portfolio'} target={'_self'}>
+                                <Button variant="primary" size="lg" active> {/**onClick={() => {window.open("/porfolio", "_self")}} */}
+                                    Portfolio
+                                </Button>
+                            </Link>
                         </BAccordion.Body>
                     </BAccordion.Item>
                     <BAccordion.Item eventKey="1">
