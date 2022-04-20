@@ -29,7 +29,7 @@ function Header() {
                 <Navbar.Collapse id="navbarScroll">
                     <Nav className="me-auto my-2 my-lg-0 header-nav-items">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Link to={'/portfolio'} target={'_self'}>
+                        <Link to={'/portfolio'} target={'_self'} class="nav-link">
                             Portfolio
                         </Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
