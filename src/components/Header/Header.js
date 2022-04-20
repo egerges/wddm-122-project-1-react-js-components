@@ -2,6 +2,7 @@ import './Header.css';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import { Link } from 'react-router-dom';
 
 // Importing React useRef and useEffect
 import { useRef, useEffect } from 'react';
@@ -28,7 +29,9 @@ function Header() {
                 <Navbar.Collapse id="navbarScroll">
                     <Nav className="me-auto my-2 my-lg-0 header-nav-items">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+                        <Link to={'/portfolio'} target={'_self'}>
+                            <Nav.Link>Portfolio</Nav.Link>
+                        </Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
